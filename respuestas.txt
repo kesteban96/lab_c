@@ -1,0 +1,17 @@
+2)
+argc es el contador de argumentos.
+argv[] es la cadena donde se guardan cada uno de los argumentos.
+
+
+El programa recibe 2 argumentos (argc y argv[]) el argumento arc es la cantidad de palabras que se tienen en el array,
+luego se muestra en pantalla la cantidad de elementos que se ingreso (adicionando el de final del vector) y luego por cada
+elemento se compara si dice debug o si dice -file, en el caso de que diga debug se muestra en pantalla un mensaje que dice:
+"main() : PROGRAM DEBUG MODE" mas un salto de linea, en el caso de que diga -file muestra en pantalla el siguiente mensaje:
+"main() : PROGRAM READ FILENAME : " y a continuacion el valor del elemento inmediatamente siguiente, en caso de que este 
+elemento no exista agrega null, sin importar si se cumple alguno de los casos o ninguno al final el programa muestra en 
+pantalla: "main(): Program Quit".
+
+
+3)* la funcion atoi convierte una cadena de caracteres en enteros 
+*Se tienen atol,atoll 
+*itoa nos permite convertir un entero a caracter
